@@ -23,10 +23,10 @@ const techStack = [
 
 const Skills = () => {
   return (
-    <div className="bg-[#0f0b1d] pt-32 pb-32">
+    <div className="bg-[#0f0b1d] pt-32 pb-32 ">
       {/* Header Section */}
       <div className="h-screen bg-[#0f0b1d] overflow-hidden">
-        <div className="bg-[#0f0b1d] text-white text-center text-3xl mt-4 items-center font-preahvihear">
+        <div className="bg-[#0f0b1d] text-white text-center  text-2xl lg:text-3xl mt-4 items-center font-preahvihear">
           <div>
             I'm currently looking to join a{" "}
             <span className="text-purple-400">cross functional</span> team

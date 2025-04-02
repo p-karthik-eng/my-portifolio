@@ -46,7 +46,7 @@ const Hero = () => {
           {/* Designer Tagline */}
           <div className="text-center md:text-left">
             <h2 className="text-md sm:text-lg text-gray-300">
-              A <span className="text-purple-400">Designer</span> who
+              A <span className="text-purple-400">Developer</span> who
             </h2>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-bold mt-2">
               Judges a book by its{" "}
@@ -76,9 +76,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="mt-4 sm:mt-6 text-gray-400 text-xs sm:text-sm max-w-lg mx-auto md:mx-0 leading-relaxed px-2 sm:px-0">
-            A self-taught UI/UX designer, functioning in the industry for 3+ years
-            now. I make meaningful and delightful digital products that create an
-            equilibrium between user needs and business goals.
+          "I’m Karthik Putcha, an aspiring web developer passionate about creating responsive and dynamic websites. I’m currently exploring the world of frontend and backend technologies, eager to learn and build projects that enhance user experiences. As I continue to grow in this field, I’m excited to take on challenges and bring creative ideas to life."
           </p>
         </div>
       </div>
