@@ -1,21 +1,23 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import {Routes, Route} from 'react-router-dom'
+import HomePage from './pages/HomePage.jsx'
+import AboutPage from './pages/AboutPage.jsx'
+import SkillsPage from './pages/SkillsPage.jsx'
+import ContactPage from './pages/Contactpage.jsx'
+import ProjectsPage from './pages/ProjectsPage.jsx'
+
 
 const App = () => {
   return (
-    <div className='bg-[#0f0b1d]'>
-      <Navbar/>
-<Hero/>
-<Skills/>
-<Projects/>
-<Contact/>
-<Footer/>
-    </div>
+   <Routes>
+    <Route path="/" element={<HomePage/>} />
+    <Route path="/about" element={<AboutPage/>} />
+    <Route path="/skills" element={<SkillsPage/>} />
+    <Route path="/Projects" element={<ProjectsPage/>} />
+    <Route path="/contact" element={<ContactPage/>} />
+    
+
+   </Routes>
   )
 }
 

@@ -1,6 +1,7 @@
-import project1 from "../components/assests/project1.svg";
+import Locus from "../components/assests/locusweb.png";
 import rahulPackaging from "../components/assests/rahulPackaging.png";
 import writeOn from "../components/assests/writeOn.png";
+import virtualr from "../components/assests/virtualr.png";
 
 
 // Sample project data with unique links
@@ -23,17 +24,26 @@ const projectData = [
   },
   {
     id: 3,
-    title: "Analytics",
+    title: "Locus Web",
     description:
       "An e-commerce web app that offers a seamless shopping experience with a secure checkout system and personalized recommendations for users.",
-    imgSrc: project1,
+    imgSrc: Locus,
+    link: "https://locus-official.vercel.app/",
+  },
+
+  {
+    id: 3,
+    title: "Virtual Reality",
+    description:
+      "An e-commerce web app that offers a seamless shopping experience with a secure checkout system and personalized recommendations for users.",
+    imgSrc: virtualr,
     link: "https://analytics-app.vercel.app/",
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="relative bg-[#0f0b1d] min-h-[350px] flex flex-col items-center justify-center px-4 sm:px-8 md:px-14 py-12 md:py-56 rounded-2xl shadow-xl space-y-20 md:space-y-28 lg:space-y-56 overflow-hidden font-preahvihear">
+    <div className="relative bg-[#0f0b1d] min-h-[350px] flex flex-col items-center justify-center px-4 sm:px-8 md:px-14 py-12 md:py-56 rounded-2xl shadow-xl space-y-20 md:space-y-28 lg:space-y-56 overflow-hidden font-preahvihear mt-">
       {/* Map through projects */}
       {projectData.map((project, index) => (
         <div
