@@ -18,14 +18,8 @@ const Skills = () => {
     <div className="bg-[#0f0b1d] pt-32 pb-32 ">
       {/* Header Section */}
       <div className="h-screen bg-[#0f0b1d] overflow-hidden">
-        <div className="bg-[#0f0b1d] text-white text-center  text-2xl lg:text-3xl mt-4 items-center font-preahvihear">
-          <div>
-            I'm currently looking to join a{" "}
-            <span className="text-purple-400">cross functional</span> team
-          </div>
-          <div className="text-xl mt-4">
-            that values improving people's lives through accessible design
-          </div>
+        <div className="bg-[#0f0b1d] text-white text-center  text-2xl  md:text-4xl lg:text-5xl mt-4 items-center font-preahvihear">
+        <div>My Dev <span className="text-purple-500"> Stack</span></div>
         </div>
 
         <div>{/* Main Section */}
@@ -41,22 +35,7 @@ const Skills = () => {
               </div>
             ))}
           </div>
-          <div class="w-full h-40 relative">
-            <svg
-              class="absolute top-0 left-0 w-full h-full"
-              viewBox="0 0 1440 320"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0,160 C480,0 960,200 1200,250"
-                stroke="#3b82f6"
-                stroke-width="4"
-                fill="none"
-                transform="rotate(90 720 160)"
-              />
-            </svg>
-          </div>
+         
             {/* Add curved lines connecting tech icons to the center */}
             <svg className=" absolute w-full h-full" viewBox="0 0 1440 320">
             {techStack.map((tech, index) => {
