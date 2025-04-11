@@ -1,6 +1,9 @@
 import React from 'react';
 import WriteOn from "../components/assests/writeOn.png";
-import Rahul from "../components/assests/rahulPackaging.png";
+
+
+import RahulPackaging from "../components/assets/rahulPackaging.png";
+
 import Locus from "../components/assests/locusweb.png";
 import virtualR from "../components/assests/virtualr.png";
 
@@ -19,7 +22,7 @@ const projects = [
     description: 'Define your product strateg',
     tags: ['Market Research', 'User Research', 'Product Strategy', 'Requirements Definition'],
     link: '/services/product-discovery',
-    image: Rahul,
+    image: RahulPackaging,
     imageAlt: 'Product Discovery',
     reverse: true,
   },
