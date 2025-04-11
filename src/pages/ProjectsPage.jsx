@@ -1,9 +1,7 @@
 import React from 'react';
 import WriteOn from "../components/assests/writeOn.png";
 
-
-import RahulPackaging from "../components/assets/rahulPackaging.png";
-
+import RahulPackaging from "../components/assests/rahulPackaging.png";
 import Locus from "../components/assests/locusweb.png";
 import virtualR from "../components/assests/virtualr.png";
 
