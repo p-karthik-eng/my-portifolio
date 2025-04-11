@@ -15,7 +15,7 @@ const techStack = [
 
 const Skills = () => {
   return (
-    <div className="bg-[#0f0b1d] pt-32 pb-32 ">
+    <div className=" pt-32 pb-32 ">
       {/* Header Section */}
       <div className="h-screen bg-[#0f0b1d] overflow-hidden">
         <div className="bg-[#0f0b1d] text-white text-center  text-2xl  md:text-4xl lg:text-5xl mt-4 items-center font-preahvihear">
