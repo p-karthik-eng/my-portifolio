@@ -1,6 +1,6 @@
 import React from 'react';
 import WriteOn from "../components/assests/writeOn.png";
-import Rahul from "../components/assests/rahulpackaging.png";
+import Rahul from "../components/assests/rahulPackaging.png";
 import Locus from "../components/assests/locusweb.png";
 import virtualR from "../components/assests/virtualr.png";
 
