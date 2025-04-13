@@ -5,13 +5,14 @@ import WriteOn from "../components/assests/writeOn.png";
 import RahulPackaging from "../components/assests/rahulPackaging.png";
 import Locus from "../components/assests/locusweb.png";
 import virtualR from "../components/assests/virtualr.png";
+import WorkIt from "../components/assests/workIt.png";
 
 const projects = [
   {
     title: "Write On",
     description: "Book and Qoutes store",
     tags: ["UX Improvement", "Visual Refresh", "Performance Optimization", "Feature Enhancement"],
-    link: "/services/product-redesign",
+    link: "https://writeon-planb.netlify.app/",
     image: WriteOn,
     imageAlt: "write on",
     reverse: false,
@@ -20,7 +21,7 @@ const projects = [
     title: "Rahul Packaging",
     description: "Define your product strateg",
     tags: ["Market Research", "User Research", "Product Strategy", "Requirements Definition"],
-    link: "/services/product-discovery",
+    link: "https://rahul-package.vercel.app/",
     image: RahulPackaging,
     imageAlt: "Product Discovery",
     reverse: true,
@@ -29,7 +30,7 @@ const projects = [
     title: "Locus Web",
     description: "Transform ideas into reality",
     tags: ["Ideation", "Concept Development", "Innovation", "Strategic Planning"],
-    link: "/services/concept-creation",
+    link: "https://locus-official.vercel.app/",
     image: Locus,
     imageAlt: "Concept Creation",
     reverse: false,
@@ -38,8 +39,8 @@ const projects = [
     title: "Work It",
     description: "Optimize user experiences",
     tags: ["User Experience", "Usability Testing", "Analytics", "Optimization"],
-    link: "/services/ux-audit",
-    image: "",
+    link: "https://work-it-two.vercel.app/",
+    image: WorkIt,
     imageAlt: "UX Audit",
     reverse: true,
   },
