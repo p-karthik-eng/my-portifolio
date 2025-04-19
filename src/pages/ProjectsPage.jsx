@@ -49,7 +49,7 @@ const projects = [
   {
     title: "Virtual Reality",
     description: "this is my react code.It shows about Virual Reality through Excellent UI.",
-    tags: ["No-Code Development", "Visual Development", "Rapid Deployment", "Business Solutions"],
+    tags: ["frontend interface", "Visual Development", "Rapid Deployment", ],
     link: "https://virtual-r-9.vercel.app/",
     image: virtualR,
     imageAlt: "No-code Solutions",
@@ -164,7 +164,7 @@ const ProjectCard = ({ title, description, tags, link, image, imageAlt, reverse 
               className="flex items-center gap-2 text-purple-400"
               variants={textVariants}
             >
-              <span>Learn more</span>
+              <span>Live Link</span>
               <span className="text-xl">→</span>
             </motion.div>
           </div>
