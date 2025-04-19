@@ -1,7 +1,7 @@
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Logo from "../components/assests/2.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex justify-between h-16 px-4 md:px-20 text-white items-center font-preahvihear">
-      <h1 className="w-full text-3xl font-bold">Karthik</h1>
+     <img className="h-40 w-40 mt-6" src={Logo} alt="logo" />
       <ul className="hidden md:flex">
   <li className="p-4 hover-target hover:text-[#7127BA]">
     <Link to="/">Home</Link>
