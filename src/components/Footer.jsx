@@ -15,17 +15,19 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex gap-4 md:gap-6 text-xl md:text-2xl">
+          
+        
+          <a href="https://github.com/p-karthik-eng" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <FaGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/karthik-putcha-6bb6a2325/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+            <FaLinkedin />
+          </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
             <FaInstagram />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
             <FaFacebook />
-          </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
-            <FaGithub />
-          </a>
-          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-            <FaLinkedin />
           </a>
         </div>
       </div>

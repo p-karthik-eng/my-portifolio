@@ -25,7 +25,7 @@ const AboutPage = () => {
       <section className="relative text-center py-20 z-10">
         <div className="container mx-auto px-4">
           <p className="text-lg mb-2">Hi, I am</p>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 relative z-10">
+          <h1 className="text-2xl md:text-6xl font-bold mb-4 relative z-10">
             <span className="text-white">Karthik Putcha</span>
           </h1>
           <nav className="flex justify-center space-x-2 text-sm">
