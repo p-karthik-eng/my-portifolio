@@ -36,24 +36,7 @@ const Contact = () => {
           Hire me <ArrowRight size={20} />
         </button>
 
-        <div className="text-xl mt-8 sm:mt-10 flex justify-center sm:justify-start gap-8 sm:gap-11">
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-purple-500 transition duration-300"
-          >
-            <FaInstagram size={28} />
-          </a>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-purple-500 transition duration-300"
-          >
-            <FaGithub size={28} />
-          </a>
-        </div>
+      
       </div>
     </div>
   );
