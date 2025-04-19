@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
+import Footer from '../components/Footer';
+
 
 const ContactPage = () => {
+
+
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -20,6 +25,15 @@ const ContactPage = () => {
 
   return (
     <section className="min-h-screen py-20 px-4 md:px-8 bg-[#0f0b1d] text-white font-preahvihear">
+         <nav className="flex justify-center space-x-2 text-sm">
+          <ol className="flex space-x-2">
+            <li className="breadcrumb-item">
+              <a href="/" className="text-white hover:underline">Home</a>
+            </li>
+            <li className="breadcrumb-item text-gray-300">/</li>
+            <li className="breadcrumb-item text-gray-300">Contact</li>
+          </ol>
+        </nav>
       {/* Top Text */}
       <div className="text-center mt-10">
         <p className="text-purple-400 text-sm md:text-base">Get in Touch</p>
@@ -60,7 +74,7 @@ const ContactPage = () => {
               },
               {
                 label: 'Email',
-                value: 'karthik123.com',
+                value: 'karthikputcha123@gmail.com',
                 svg: (
                   <>
                     <rect width="20" height="16" x="2" y="4" rx="2" />
@@ -201,6 +215,7 @@ const ContactPage = () => {
           </p>
         </form>
       </div>
+      <Footer/>
     </section>
   );
 };

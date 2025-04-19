@@ -6,6 +6,8 @@ import RahulPackaging from "../components/assests/rahulPackaging.png";
 import Locus from "../components/assests/locusweb.png";
 import virtualR from "../components/assests/virtualr.png";
 import WorkIt from "../components/assests/workIt.png";
+import Analytics from "../components/assests/analytics.png";
+import Footer from "../components/Footer";
 
 const projects = [
   {
@@ -19,7 +21,7 @@ const projects = [
   },
   {
     title: "Rahul Packaging",
-    description: "Define your product strateg",
+    description: "Rahul Packaging is website for company Website to describe about company and products",
     tags: ["Market Research", "User Research", "Product Strategy", "Requirements Definition"],
     link: "https://rahul-package.vercel.app/",
     image: RahulPackaging,
@@ -28,7 +30,7 @@ const projects = [
   },
   {
     title: "Locus Web",
-    description: "Transform ideas into reality",
+    description: "This website is for promotion for a Locus app ",
     tags: ["Ideation", "Concept Development", "Innovation", "Strategic Planning"],
     link: "https://locus-official.vercel.app/",
     image: Locus,
@@ -37,7 +39,7 @@ const projects = [
   },
   {
     title: "Work It",
-    description: "Optimize user experiences",
+    description: "This website is the promotion for WorkIt app.",
     tags: ["User Experience", "Usability Testing", "Analytics", "Optimization"],
     link: "https://work-it-two.vercel.app/",
     image: WorkIt,
@@ -46,7 +48,7 @@ const projects = [
   },
   {
     title: "Virtual Reality",
-    description: "Build applications without coding",
+    description: "this is my react code.It shows about Virual Reality through Excellent UI.",
     tags: ["No-Code Development", "Visual Development", "Rapid Deployment", "Business Solutions"],
     link: "/services/no-code",
     image: virtualR,
@@ -58,7 +60,7 @@ const projects = [
     description: "Create stunning, responsive websites",
     tags: ["UI/UX Design", "Responsive Design", "Visual Design", "User Research"],
     link: "/services/website-design",
-    image: "",
+    image: Analytics,
     imageAlt: "Website Design",
     reverse: true,
   },
@@ -127,6 +129,7 @@ const ProjectCard = ({ title, description, tags, link, image, imageAlt, reverse 
       animate={isInView ? "visible" : "hidden"}
     >
       <div className="group relative bg-white/5 backdrop-blur-sm rounded-[32px] p-12 hover:bg-white/10 transition-all duration-300 cursor-pointer overflow-hidden">
+      
         <div
           className={`flex flex-col ${reverse ? "md:flex-row-reverse" : "md:flex-row"} justify-between gap-12`}
         >
@@ -239,12 +242,22 @@ const ProjectsPage = () => {
 
   return (
     <div className="py-20" style={{ backgroundColor: "#0f0b1d" }}>
+        <nav className="flex justify-center space-x-2 text-sm">
+          <ol className="flex space-x-2">
+            <li className="breadcrumb-item">
+              <a href="/" className="text-white hover:underline">Home</a>
+            </li>
+            <li className="breadcrumb-item text-gray-300">/</li>
+            <li className="breadcrumb-item text-gray-300">Projects</li>
+          </ol>
+        </nav>
       <motion.section
         ref={ref}
         className="pt-32 pb-20 relative overflow-hidden"
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
       >
+        
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <motion.div
             className="absolute top-20 left-10 w-3 h-3 bg-purple-500"
@@ -349,6 +362,7 @@ const ProjectsPage = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
