@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Locus Web",
     description: "This website is for promotion for a Locus app ",
-    tags: ["Ideation", "Concept Development", "Innovation", "Strategic Planning"],
+    tags: ["frontend development", "Concept Development", "Innovation", "Strategic Planning"],
     link: "https://locus-official.vercel.app/",
     image: Locus,
     imageAlt: "Concept Creation",
