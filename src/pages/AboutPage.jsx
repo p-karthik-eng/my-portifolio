@@ -13,7 +13,7 @@ const AboutPage = () => {
   };
 
   return (
-    <section className="relative text-white bg-[#0f0b1d] font-preahvihear overflow-hidden">
+    <section className="relative text-white bg-[#0f0b1d] font-preahvihear overflow-hidden mx-8">
       
       {/* Gradient Behind Heading */}
       <img
@@ -54,7 +54,7 @@ const AboutPage = () => {
               My expertise extends to <strong>Flutter</strong>, ensuring seamless, high-performance applications.
             </p>
           </div>
-          <div className="lg:w-5/12 lg:ml-auto self-end mt-6 lg:mt-0">
+          <div className="lg:w-5/12 lg:ml-auto self-end mt-6 lg:mt-10">
             <p className="mb-0">
               I thrive on problem-solving and creating innovative solutions. Whether it's <strong>backend or frontend development</strong>,
               I enjoy working on projects that push the boundaries of technology.
@@ -65,11 +65,11 @@ const AboutPage = () => {
       </div>
 
       {/* Profile Summary */}
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4   mt-2 md:mt-20">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2">
             <div className="rounded-2xl overflow-hidden shadow-md">
-              <img src={Karthik} alt="About Me" className="w-full" />
+              <img src={Karthik} alt="About Me" className="w-full h-full" />
             </div>
             <div className="h-8 lg:h-6"></div>
           </div>
