@@ -31,7 +31,7 @@ const Contact = () => {
 
         <button
           onClick={handleNavigate}
-          className='mt-6 flex items-center gap-2 border border-purple-900 text-white px-6 py-2 rounded-full hover:bg-purple-600 transition'
+          className='mt-6 flex items-center gap-2 border border-purple-900 text-white px-5 mx-20 py-2 rounded-full hover:bg-purple-600 transition'
         >
           Hire me <ArrowRight size={20} />
         </button>
