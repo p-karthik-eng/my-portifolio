@@ -1,6 +1,7 @@
 import React from 'react';
 import skills from "../components/assests/skill.svg";
 import Footer from '../components/Footer';
+import Skills from '../components/Skillsdiv';
 
 const SkillsPage = () => {
   return (
@@ -11,17 +12,11 @@ const SkillsPage = () => {
             <a href="/" className="text-white hover:underline">Home</a>
           </li>
           <li className="breadcrumb-item text-gray-300">/</li>
-          <li className="breadcrumb-item text-gray-300">Contact</li>
+          <li className="breadcrumb-item text-gray-300">Skills</li>
         </ol>
       </nav>
 
-      <div className='flex justify-center mt-20 px-4 md:px-20'>
-        <img 
-          src={skills} 
-          alt="Skills" 
-          className='w-full max-w-4xl h-auto' 
-        />
-      </div>
+      <Skills/>
 
       <Footer />
     </div>

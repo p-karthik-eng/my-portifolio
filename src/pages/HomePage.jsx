@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import CustomCursor from "../components/Customcursor";
 import ToolkitSection from "../components/ToolkitSection";
 import SkillsImages from "../components/SkillsImages";
+import Skillsdiv from "../components/Skillsdiv";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       
-      <SkillsImages/>
+      <Skillsdiv/>
       <Projects />
       <Contact />
       <Footer />
